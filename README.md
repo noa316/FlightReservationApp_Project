@@ -1,3 +1,19 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+
 # FlightReservationApp_Project
 This was a Project I finished for my Software Design class where I created an Android App that acts as a Flight Reservation Simulator.
 
@@ -37,6 +53,15 @@ After that, the System should display the main menu.
 
 <img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/CreateAccount.png" width="361" height="580">
 <img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/SuccessfulAccount.png" width="361" height="581">
+
+<div class="row">
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/CreateAccount.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/SuccessfulAccount.png" alt="Forest" style="width:100%">
+  </div>
+</div>
 
 (3)   Manage the system - Verify the new account
   	- Select "Manage System"

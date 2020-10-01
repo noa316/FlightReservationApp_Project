@@ -16,6 +16,8 @@ Objective:
 
 UseCase Diagram
 
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/UMLDiagram.png" width="361" height="260">
+
 <img src="https://github.com/noa316/FlightReservationApp_Project/blob/main/homework6/FlightApp_Images/UseCaseDiagram.png?raw=true" width="500" height="500">
 
 UML DIAGRAM:

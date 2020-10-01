@@ -16,12 +16,11 @@ Objective:
 
 UseCase Diagram
 
-![Use Case Diagram](homework6/FlightApp_Images/UseCaseDiagram.png?raw=true "Use Case Diagram")
-<img src="https://github.com/noa316/FlightReservationApp_Project/blob/main/homework6/FlightApp_Images/UseCaseDiagram.png?raw=true" width="400" height="800">
+<img src="https://github.com/noa316/FlightReservationApp_Project/blob/main/homework6/FlightApp_Images/UseCaseDiagram.png?raw=true" width="500" height="500">
 
 UML DIAGRAM:
 
-![UML Diagram](homework6/FlightApp_Images/UMLDiagram.png?raw=true "UML Diagram")
+<img src="https://github.com/noa316/FlightReservationApp_Project/blob/main/homework6/FlightApp_Images/UMLDiagram.png?raw=true" width="500" height="500">
 
 
 Test Case descriptions (with Screenshots from Android studio Emulator)

@@ -16,11 +16,11 @@ Objective:
 
 UseCase Diagram
 
-![Use Case Diagram](FlightReservationApp_Project/Homework6/FlightApp_Images/UseCaseDiagram.png?raw=true "UseCaseDiagram")
+![Use Case Diagram](Homework6/FlightApp_Images/UseCaseDiagram.png?raw=true "UseCaseDiagram")
 
 
 UML DIAGRAM:
 
-![UML Diagram](Homework6/FlightApp_Images/UMLDiagram.png?raw=true "UML Digram")
+![UML Diagram](Homework6/FlightApp_Images/UMLDiagram.png?raw=true "UMLDiagram")
 
 

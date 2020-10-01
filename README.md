@@ -1,19 +1,3 @@
-<style>
-* {
-  box-sizing: border-box;
-}
-
-.row {
-  display: flex;
-}
-
-/* Create three equal columns that sits next to each other */
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-</style>
-
 # FlightReservationApp_Project
 This was a Project I finished for my Software Design class where I created an Android App that acts as a Flight Reservation Simulator.
 
@@ -52,16 +36,7 @@ Test Case descriptions (with Screenshots from Android studio Emulator)
 After that, the System should display the main menu.
 
 <img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/CreateAccount.png" width="361" height="580">
-<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/SuccessfulAccount.png" width="361" height="581">
-
-<div class="row">
-  <div class="column">
-    <img src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/CreateAccount.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/SuccessfulAccount.png" alt="Forest" style="width:100%">
-  </div>
-</div>
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/SuccessfulAccount.png" width="361" height="580">
 
 (3)   Manage the system - Verify the new account
   	- Select "Manage System"
@@ -72,8 +47,8 @@ After that, the System should display the main menu.
       	2. Customer's username: !!Byun7
       	3. Transaction date: Depending on the test case 2 execution date.
       	4. Transaction time (= hour and minute): Depending on the test case 2 execution time.
-
-![Verfiy New Account](homework6/FlightApp_Images/LogRecords_1.png?raw=true "Verify new Account")
+        
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/LogRecords_1.png" width="361" height="547">
 
 (4)   Create an incorrect account
     (Invalid Username-Password)
@@ -83,7 +58,7 @@ After that, the System should display the main menu.
   	 The System should display an error message.
        	The Customer confirms the error message and can re-try or go back to main menu.
         
-![Invalid Username-Password](homework6/FlightApp_Images/InvalidUsernm:pswrd_1.png?raw=true "Invalid Username-Password")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/InvalidUsernm%3Apswrd_1.png" width="361" height="581">
 
     (Duplicate Username)
     - Select "Create Account"
@@ -92,7 +67,7 @@ After that, the System should display the main menu.
   	 System should display an error message.
        	The Customer confirms the error message.
         
-![Username Already In Use](homework6/FlightApp_Images/UsernameAlreadyInUse_1.png?raw=true "Username Already In Use")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/UsernameAlreadyInUse_1.png" width="361" height="561">
 
 (5)   Reserve seat
   	- Select "Reserve Seat"
@@ -112,10 +87,9 @@ After that, the System should display the main menu.
            	- Reservation number: Depending on the test.
            	- Total amount:  $401.00
       	4. The Customer confirms it
-
-![Search Flights](homework6/FlightApp_Images/FlightSearch.png?raw=true "Search Flights")
-![Flight List](homework6/FlightApp_Images/FlightList_1.png?raw=true "Flight List")
-![Confirm Reservation](homework6/FlightApp_Images/ConfirmReservation_1.png?raw=true "Confirm Reservation")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/FlightSearch.png" width="361" height="568">
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/FlightList_1.png" width="361" height="563">
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/ConfirmReservation_1.png" width="361" height="559">
 
 (6)   Reserve seat - One more trial
   	- Select "Reserve Seat"
@@ -136,8 +110,8 @@ After that, the System should display the main menu.
            	- Total amount:  $900.00
       	4. The Customer confirms it
 
-![Flight List 2](homework6/FlightApp_Images/FlightList_2.png?raw=true "Flight List 2")
-![Confirm Reservation 2](homework6/FlightApp_Images/ConfirmReservation_2.png?raw=true "Confirm Reservation 2")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/FlightList_2.png" width="361" height="588">
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/ConfirmReservation_2.png" width="361" height="578">
 
 (7)   Reserve seat - Handle No Flight Available
   	- Select "Reserve Seat"
@@ -147,7 +121,7 @@ After that, the System should display the main menu.
   	 The System informs the Customer that there is no flight available for the departure/arrival.
       	The Customer can click “Back to search” and the app takes them back to the search page.
         
-![No Flight Available](homework6/FlightApp_Images/NoMatchingFlights.png?raw=true "No Flight Available")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/NoMatchingFlights.png" width="361" height="552">
 
 (8)   Cancel reservation
   	- Select "Cancel Reservation"
@@ -160,8 +134,8 @@ After that, the System should display the main menu.
      	1. The System requests confirmation and the Customer confirms it.
   	   2. The System should display the main menu.
 
-![Cancel Reservations List ](homework6/FlightApp_Images/CancelFlights_1.png?raw=true "Cancel Reservtions List")
-![Confirm Cancellation](homework6/FlightApp_Images/ConfirmCancellation_1.png?raw=true "Confirm Cancellation")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/CancelFlightList_1.png" width="361" height="511">
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/CofirmCancellation_1.png" width="361" height="458">
 
 (9)   Manage the system - Verify the cancellation
   	- Select "Manage System"
@@ -178,7 +152,7 @@ After that, the System should display the main menu.
       	8. Transaction date: Depending on the test case 11 execution date.
       	9. Transaction time (= hour and minute): Depending on the test case 11 execution time.
 
-![Verfiy Cancellation](homework6/FlightApp_Images/LogRecords_2.png?raw=true "Verify Cancellation")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/LogRecords_2.png" width="361" height="555">
 
 (10)   Manage the system - Add a new flight
   	- Select "Manage System"
@@ -194,6 +168,5 @@ After that, the System should display the main menu.
    	  6. Price: $350.50
   	 The System requests confirmation and the System Operator confirms it.
      
-
-![Create Flight](homework6/FlightApp_Images/CreateFlight_1.png?raw=true "Create Flight")
-![Confirm Flight Creation](homework6/FlightApp_Images/ConfirmCreateFlight.png?raw=true "Confirm Flight Creation")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/CreateFlight_1.png" width="361" height="620">
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/ConfirmCreateFlight.png" width="361" height="598">

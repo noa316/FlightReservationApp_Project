@@ -63,40 +63,6 @@ public class ReserveLoginActivity  extends AppCompatActivity {
             weather = "62⁰ F, Sunny";
         }
 
-
-
-
-
-
-//Was trying to get realtime weather data here
-
-        //String OPENWEATHER = "https://api.openweathermap.org/data/2.5/weather";
-//        String KEY = "6100c6460a157bae81a136c4dc5364dc";
-//
-//        //"https://api.openweathermap.org/data/2.5/weather?q={"+ strDeparture +"},{"+state+"}&appid={"+KEY+"}";
-//
-//        String urlstring = "https://api.openweathermap.org/data/2.5/weather?q={"+ strDeparture +"},{"+state+"}&appid={"+KEY+"}";
-//        Scanner reader = null;
-//        String result = "Error";
-//        try{
-//            URL url= new URL(urlstring);
-//            reader = new Scanner(url.openConnection().getInputStream());
-//            StringBuffer sb = new StringBuffer();
-//            while (reader.hasNext())
-//                sb.append(reader.nextLine());
-//            result = sb.toString();
-//            System.out.println(sb.toString());
-//
-//        } catch(Exception e) {
-//            Log.d(RESERVELOGIN_ACTIVITY, "onCLick getWeather exception called ");
-//        }
-//
-//        System.out.println(result);
-
-
-
-
-
         System.out.println(flightNo);
         System.out.println("flightNo: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 

@@ -16,19 +16,17 @@ Objective:
 
 UseCase Diagram
 
-<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/UMLDiagram.png" width="361" height="260">
-
-<img src="https://github.com/noa316/FlightReservationApp_Project/blob/main/homework6/FlightApp_Images/UseCaseDiagram.png?raw=true" width="500" height="500">
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/UseCaseDiagram.png" width="461" height="348">
 
 UML DIAGRAM:
 
-<img src="https://github.com/noa316/FlightReservationApp_Project/blob/main/homework6/FlightApp_Images/UMLDiagram.png?raw=true" width="500" height="500">
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/UMLDiagram.png" width="461" height="360">
 
 
 Test Case descriptions (with Screenshots from Android studio Emulator)
 (1)   When your app starts, it should provide the main menu GUI with four options of “Create Account”, “Reserve Seat”, “Cancel Reservation”, and “Manage System”.
 
-![Main Menu](homework6/FlightApp_Images/Main_menu.png?raw=true "Main Menu")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/Main_menu.png" width="361" height="613">
 
 (2)   Create a correct account
   	- Select "Create Account"
@@ -37,8 +35,8 @@ Test Case descriptions (with Screenshots from Android studio Emulator)
   	 The System informs the Customer that the new account has been created successfully.
 After that, the System should display the main menu.
 
-![Create Account](homework6/FlightApp_Images/CreateAccount.png?raw=true "Create Account")
-![Successful Account Creation](homework6/FlightApp_Images/SuccessfulAccount.png?raw=true "Successful Account Creation")
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/CreateAccount.png" width="361" height="580">
+<img style="-webkit-user-select: none;margin: auto;cursor: zoom-in;" src="https://raw.githubusercontent.com/noa316/FlightReservationApp_Project/main/homework6/FlightApp_Images/SuccessfulAccount.png" width="361" height="581">
 
 (3)   Manage the system - Verify the new account
   	- Select "Manage System"

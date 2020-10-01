@@ -17,7 +17,7 @@ Objective:
 UseCase Diagram
 
 ![Use Case Diagram](homework6/FlightApp_Images/UseCaseDiagram.png?raw=true "Use Case Diagram")
-<img src="https://github.com/noa316/FlightReservationApp_Project/blob/main/homework6/FlightApp_Images/UseCaseDiagram.png?raw=true" width="400" height="500">
+<img src="https://github.com/noa316/FlightReservationApp_Project/blob/main/homework6/FlightApp_Images/UseCaseDiagram.png?raw=true" width="400" height="800">
 
 UML DIAGRAM:
 
